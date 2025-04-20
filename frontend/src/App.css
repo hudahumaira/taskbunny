@@ -1,0 +1,63 @@
+.App {
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background-color: #fff0f5; 
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.2);
+}
+
+h1 {
+  color: #d14d72; 
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.task-form input,
+.task-form button {
+  margin: 0.3rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid #f3c5c5;
+  font-size: 1rem;
+}
+
+.task-form input {
+  background-color: #fffaf9;
+  color: #4a2c2a;
+}
+
+.task-form button {
+  background-color: #f08080; 
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+  background-color: #e96565;
+}
+
+.task-card {
+  border: 1px solid #f9d5d3;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #fff5f5;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.2);
+  text-align: left;
+}
+
+.task-card h4 {
+  color: #c94f7c;
+  margin-bottom: 0.5rem;
+}
